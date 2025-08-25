@@ -1,0 +1,201 @@
+/* Basic Styling */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f4f4f4;
+
+}
+
+/* Header Styling */
+
+header {
+
+    background-color: #333;
+
+    color: white;
+
+    padding: 1rem 2rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+header .logo {
+
+    font-size: 1.5rem;
+
+}
+
+header nav ul {
+
+    list-style: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+}
+
+header nav ul li {
+
+    margin-left: 20px;
+
+}
+
+header nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+/* Hero Section */
+
+.hero {
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+    background-color: #ddd;
+
+}
+
+/* Product Sections */
+
+.product-container {
+
+    padding: 2rem;
+
+}
+
+.product-section {
+
+    margin-bottom: 40px;
+
+}
+
+.product-section h2 {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    font-size: 2rem;
+
+}
+
+.product-grid {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+/* Product Card Styling */
+
+.product-card {
+
+    background-color: white;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    width: 250px;
+
+    padding: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+.product-card img {
+
+    max-width: 100%;
+
+    height: auto;
+
+    border-radius: 5px;
+
+}
+
+.product-card h3 {
+
+    margin: 10px 0;
+
+}
+
+.product-card .price {
+
+    font-size: 1.2rem;
+
+    font-weight: bold;
+
+    color: #333;
+
+}
+
+.product-card button {
+
+    background-color: #28a745;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 1rem;
+
+    margin-top: 10px;
+
+}
+
+.product-card button:hover {
+
+    background-color: #218838;
+
+}
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    background-color: #333;
+
+    color: white;
+
+    margin-top: 20px;
+
+}
